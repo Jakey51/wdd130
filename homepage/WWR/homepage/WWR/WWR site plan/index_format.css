@@ -26,3 +26,9 @@ ul {
 body{
     background-color: #195190ff;
 }
+.logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
