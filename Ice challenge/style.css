@@ -1,4 +1,6 @@
-
+h1, h2, h4, ol, li, p{
+    font-family: 'times new roman';
+}
 img{
         width: 50%;
         height: auto;
@@ -16,6 +18,10 @@ body{
 }
 h1{
     text-align: center;
+    text-emphasis-color: #ffffff;
+}
+h1:hover{
+    color: white;
 }
 
 /* */
