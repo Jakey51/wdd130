@@ -1,3 +1,14 @@
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 90%;
+  height: auto;
+}
+
+nav a #hero-msg, #hero-msg, h4 .button-box main section{
+  text-align: center;
+}
 ul {
     list-style-type: none;
     margin: 0;
@@ -45,6 +56,9 @@ body{
   width: 25%;
 }
 
+footer{
+  background-color: cadetblue;
+}
 footer p{
   font-size: 1.2em;
 }
@@ -52,3 +66,18 @@ footer p{
 footer p a:hover{
   text-decoration: underline;
 }
+h2{
+  text-align: center;
+}
+
+img{
+  align-items: center;
+}
+#hero-box{
+  width: 90%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  }
