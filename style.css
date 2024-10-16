@@ -41,12 +41,33 @@ ul {
 
 body{
     background-color: #195190ff;
+    margin: 0 auto;
+    padding: 0; 
 }
 
 p{
 border-style: solid;
+border-radius:8px;
+text-align: center;
+width: 50%;
+margin: 15px auto;
 }
 h1{
   text-align: center;
 }
+footer{
+  color: beige;
+  text-align: center;
+  background-color: rgb(0, 0, 250);
+  padding: 15px;
+  box-sizing: border-box;
+}
+.myself{
+  margin: auto;
+  padding: 0%;
+  border: 0px;
+  text-align: center;
+  width: 10px; 
+}
 /* steel blue */
+/*TRBL (TOP, Right, Bottom, Left*/
