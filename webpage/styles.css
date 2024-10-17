@@ -1,0 +1,34 @@
+body{
+    background-color: darkgrey;
+    margin: 0;
+    padding: 0;
+}
+#background{
+    height:min-content;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:100%;
+}
+.row{
+    text-align: center;
+    align-items: center;
+    object-fit: cover;
+    float: left;
+    width: 25%;
+    height: auto;
+    padding: auto;
+    border-radius: 50%;
+    border: 10px solid gray;
+    margin: 2.85%;
+}
+ 
+#desk{
+
+}
+#logo{
+
+}
+#person{
+
+}
