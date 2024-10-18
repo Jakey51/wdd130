@@ -1,5 +1,17 @@
+body{
+  background-color: #195190ff;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 22px;
+  padding: 0;
+  margin: 0;
+
+}
 h1, h2, h4, ol, li, p{
   font-family: 'times new roman', 'sans-serif';
+  font-size: 2em;
+}
+h2{
+  margin:0;
 }
 nav a #hero-msg, #hero-msg, h4 .button-box main section{
   text-align: center;
@@ -11,7 +23,7 @@ ul {
     overflow: hidden;
     background-color: #a2a2a1ff;
   }
-  
+
 li {
     float: left;
   }
@@ -22,7 +34,7 @@ li a {
     padding: 14px 16px;
     text-decoration: none;
   }
-/* Change the link color to #111 (black) on hover */
+
   li a:hover {
   background-color: #111;
  }
@@ -36,22 +48,18 @@ header{
 background-color: #fcfbfb
 }
 
-
-body{
-  background-color: #195190ff;
-}
-
-
 .logo{
   display: block;
-  margin-left: auto;
   margin-right: auto;
-  width: 25%;
+  width: 10%;
 }
 
 footer{
   background-color: cadetblue;
+  padding: 25px 50px;
+  margin-top: 200px;
 }
+
 footer p{
   font-size: 1.2em;
 }
@@ -59,6 +67,7 @@ footer p{
 footer p a:hover{
   text-decoration: underline;
 }
+
 h2{
   text-align: center;
 }
@@ -66,14 +75,17 @@ h2{
 img{
   align-items: center;
 }
+
 #hero-box{
-  width: 90%;
-  height: auto;
+  width: auto;
+  height: 90%;
+  margin: auto;
   display: flex;
   justify-content: center;
   align-items: center;
   overflow: hidden;
   }
+
 .social{
   text-align: center;
 }
@@ -83,4 +95,46 @@ img{
 
 .msg{
   background-color: cadetblue
+}
+
+.home-grid{
+  text-align: center;
+}
+
+.card-img{
+  width: 250px;
+}
+
+.home-title{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 2em;
+  margin-top: 10px;
+}
+
+.msg{
+  background-color: #6f7364;
+  line-height: 1.5em;
+}
+
+#logo_link{
+  padding-top:5px;
+}
+nav a{
+  padding: 35px;
+}
+.book .join{
+  padding: 15px 30px;
+  margin-top: 50px;
+}
+.icon{
+padding-top: 10px;
+}
+.msg{
+padding: 35px;
+}
+.msg p{
+padding-bottom: 15px;
+}
+footer .social img{
+  padding-top: 15px;
 }
