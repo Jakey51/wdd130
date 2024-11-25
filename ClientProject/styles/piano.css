@@ -9,6 +9,9 @@ body {
 }
 
 /* Header*/
+.logo{
+  height: 130px;
+}
 nav {
   background-color:#e6b986;
   line-height: 3em;
@@ -18,10 +21,11 @@ nav {
 nav  {
   list-style-type: none;
   display: grid;
-  grid-template-columns: 25% 50% 25%;
+  grid-template-rows: 2em 1em 1em 1em 1em;
 }
 
 nav a {
+  float: left;
   padding:1em;
   min-width: 120px;
   text-decoration: none;
@@ -163,6 +167,6 @@ footer a{
     display:block;
   }
 }
-@media (max-width: 600px) {
+@media (max-width: 500px) {
 
 }
