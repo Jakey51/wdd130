@@ -100,10 +100,12 @@ video{
   height: 400px;
   width: 55%;
   height: auto;
-  border-spacing: 30px;
+  display:block;
+  margin: 0 auto;
 }
 #name{
   text-decoration: underline;
+  text-align: center;
 }
 #review{
   width: 80%;
