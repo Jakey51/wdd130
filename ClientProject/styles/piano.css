@@ -21,7 +21,7 @@ nav {
 nav  {
   list-style-type: none;
   display: grid;
-  grid-template-rows: 2em 1em 1em 1em 1em;
+  grid-template-rows: 2em 1em 1em 1em 1em #e6b986;
 }
 nav a {
   float: left;
@@ -76,6 +76,13 @@ video{
   width: 100%;
 }
 /*about me*/
+#txt{
+  float: left;
+  padding: 20px;
+  width: 80%;
+  padding-left: 10%;
+}
+
 .filler{
   border: 15px solid #75563e;
   padding: 50px;
@@ -115,6 +122,7 @@ video{
 }
 .txt{
   width: 75px;
+  align-items: right;
 }
 #person1{
 margin: 10px;
