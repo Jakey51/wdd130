@@ -25,11 +25,8 @@ Fonts are separated by a | */
   --nav-hover-link-color: #ffd99a;
   --nav-hover-background-color: #75563e;
 }
-#tic{
-    height: 5%;
-}
-.tic{
-    height: 5%;
+.social img{
+  height: 100px;
 }
 /*  Look around below...but DON'T CHANGE ANYTHING! */
 
