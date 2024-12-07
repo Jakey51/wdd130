@@ -35,7 +35,8 @@ nav a {
   padding: 0.8em;
   min-width: 120px;
   text-decoration: none;
-  padding: 10px;
+  padding: 16px;
+  padding-block: 16px;
 }
 nav a:link, nav a:visited {
   color: #1c110f;
@@ -47,13 +48,20 @@ nav a:hover {
 ul {
   list-style-type: none;
   align-items: center;
-  padding: 0px;
+  padding: 0px 0px;
 }
 li {
+  width: 160px;
   float: left;
+  margin:10px 10px 10px 10px;
+  padding: 10px;
+  margin-right: 10px;
 }
 li a{
-  width: 10%;
+  width: 15%;
+}
+a{
+  max-width: 20px;
 }
 #intro {
   text-align: center;
@@ -61,11 +69,10 @@ li a{
 /*footer*/
 footer{
   background-color: cadetblue;
-  padding: 25px 50px;
-  margin-top: 200px;
-  width: 85%;
+  /*padding: 25px 50px;*/
+  /*margin-top: 200px;*/
   display: flex;
-  /*justify-content: space-around;*/
+  justify-content: space-around;
   align-items: center;
   width: auto;
 }
@@ -94,7 +101,9 @@ video{
   width: 80%;
   padding-left: 10%;
 }
-
+#aboutMe{
+  background-color: #e6b986;
+}
 .filler{
   border: 15px solid #75563e;
   padding: 50px;
@@ -108,7 +117,6 @@ video{
 /*Testimonials page*/
 .grid-container{
   display: grid;
-  grid-template-columns: auto auto auto auto;
   gap: 10px;
   border: 5px;
   padding: 10px;
@@ -133,16 +141,17 @@ video{
 }
 .txt{
   width: 75px;
-  align-items: right;
 }
 .container {
   border: 2px solid #e6b986;
   background-color:#e6b986;
   border-radius: 5px;
-  padding: 16px 16px;
-  margin: 16px 0;
+  padding: 16px 32px;
+  margin: 16px 16px;
 }
-
+.container p{
+  line-height: 1.6em;
+}
 /* Clear floats after containers */
 .container::after {
   content: "";
@@ -227,7 +236,7 @@ footer a{
 }
 /*pricing*/
 #price{
-justify-items: right 10px;
+justify-items: right;
 }
 #aboutMe{
   border: 10px solid #75563e;
@@ -235,7 +244,8 @@ justify-items: right 10px;
   margin: 10px;
 }
 #service{
-  border: 10px solid #75563e;
+  background-color: #e6b986;
+  border: 10px solid #e6b986;
   padding: 20px;
   margin: 10px;
 }
