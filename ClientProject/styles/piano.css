@@ -11,6 +11,8 @@ body {
 .logo{
   height: 130px;
   border-radius: 50%;
+  display: block;
+  margin: 0 auto;
 }
 .logolink{
   border:none;
@@ -44,6 +46,7 @@ nav a {
   padding: 16px;
   padding-block: 16px;
   border: 1px solid #75563e;
+  transition: 0.5s;
 }
 nav a:link, nav a:visited {
   color: #1c110f;
@@ -59,17 +62,14 @@ nav a:hover {
   border-radius: 5px;
 }
 ul {
-  list-style-type: none;
-  align-items: center;
+  align-items: left;
   padding: 0px 0px;
 }
 li {
   width: 160px;
-  float: left;
   margin:10px 10px 10px 10px;
   padding: 10px;
   margin-right: 10px;
-  text-align: center;
   align-items: center;
 }
 li a{
@@ -257,11 +257,7 @@ footer a{
   clear: both;
 }
 /*pricing*/
-#price{
-justify-items: right;
-background-color: #e6b986;
 
-}
 #aboutMe{
   border: 10px solid #75563e;
   padding: 20px;
@@ -272,11 +268,17 @@ background-color: #e6b986;
   border: 10px solid #e6b986;
   padding: 20px;
   margin: 10px;
-  height: 300px;
+  height: fit-content;
+}
+#price{
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
 }
 @media screen and (max-width: 900px){
   body{
     width: 100%;
+    justify-content: space-around;
   }
   .grid-container{
     display:block;
@@ -296,23 +298,26 @@ background-color: #e6b986;
   }
   nav {
     line-height: 1em;
+    font-size: 1em;
   }
-
+  
   footer p, footer a {
     font-size: 1em;
   }
+  #price{
+    display: block;
+  }
+  li{
+    width: 80%;
+  }
 }
 @media (max-width: 500px) {
-  body{
-    width: 95%;
-  }
 
   .container {
     text-align: center;
   }
   nav{
     display: block;
-    font-size: 1em;
   }
   nav img{
     display: block;
@@ -326,6 +331,5 @@ background-color: #e6b986;
   }
 footer{
   flex-direction: column;
-  width: fit-content;
 }
 }
