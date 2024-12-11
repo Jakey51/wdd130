@@ -47,6 +47,7 @@ nav a {
   padding-block: 16px;
   border: 1px solid #75563e;
   transition: 0.5s;
+  margin: 10px;
 }
 nav a:link, nav a:visited {
   color: #1c110f;
@@ -115,6 +116,9 @@ footer a:hover{
 video{
   height: fit-content;
   width: 100%;
+}
+#intro{
+  padding:100px;
 }
 /*about me*/
 #txt{
@@ -313,6 +317,10 @@ footer a{
 }
 @media (max-width: 500px) {
 
+  #top{
+    margin: 10px;
+    padding:10px;
+  }
   .container {
     text-align: center;
   }
