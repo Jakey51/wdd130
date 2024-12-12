@@ -172,8 +172,8 @@ video{
   border: 2px solid #e6b986;
   background-color:#e6b986;
   border-radius: 5px;
-  padding: 16px 32px;
-  margin: 16px 16px;
+  padding: 24px 32px;
+  margin: 16px 36px;
 }
 .container p{
   line-height: 1.6em;
@@ -270,8 +270,8 @@ footer a{
 #service{
   background-color: #e6b986;
   border: 10px solid #e6b986;
-  padding: 20px;
-  margin: 10px;
+  padding: 24px 32px;
+  margin: 16px 36px;
   height: fit-content;
 }
 #price{
@@ -290,7 +290,6 @@ footer a{
   nav li, nav a {
     display: block;
     width: 80%;
-    
   }
   #top {
     flex-direction: column;
@@ -303,8 +302,7 @@ footer a{
   nav {
     line-height: 1em;
     font-size: 1em;
-  }
-  
+  }  
   footer p, footer a {
     font-size: 1em;
   }
