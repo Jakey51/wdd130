@@ -260,6 +260,36 @@ footer a{
   display: table;
   clear: both;
 }
+div.letter{
+  display: flex;
+  justify-content: center;
+  border: 2px solid #e6b986;
+  background-color:#e6b986;
+  border-radius: 5px;
+  padding: 24px 32px;
+  margin: 16px auto;
+  flex-direction: column;
+}
+.letter img{
+  display: flex;
+  justify-content: center;
+  border: 2px solid #e6b986;
+  background-color:#e6b986;
+  border-radius: 5px;
+  padding: 24px 32px;
+  margin: 16px 36px;
+  align-items: center;
+  width: 75%;
+}
+.letter a{
+  text-align: center;
+  color: #1c110f;
+}
+
+.letter a:hover{
+color: #75563e;
+}
+
 /*pricing*/
 
 #aboutMe{
@@ -334,6 +364,9 @@ footer a{
     margin: auto;
     float: none;
     display: block;
+  }
+  .letter img{
+    width: 100%;
   }
 footer{
   flex-direction: column;
