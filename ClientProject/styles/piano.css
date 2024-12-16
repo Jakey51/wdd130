@@ -87,6 +87,7 @@ a{
 }
 #intro {
   text-align: center;
+  align-items: center;
 }
 /*footer*/
 footer{
@@ -119,6 +120,15 @@ video{
 }
 #intro{
   padding:100px;
+  width: fit-content;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#me{
+  width: 75%;
+  padding: 10px;
+  margin: 10px;
 }
 /*about me*/
 #txt{
@@ -326,6 +336,11 @@ color: #75563e;
     align-content: stretch;
     width: 100%;
   }
+  #me{
+    width: 75%;
+    padding: 20px;
+    margin: 10px;
+  }
   ul {
     padding-inline-start: 0;
   }
@@ -358,7 +373,11 @@ color: #75563e;
   nav img{
     display: block;
     margin: 0 auto;
-    
+  }
+  #me{
+    width: 75%;
+    padding: 20px;
+    margin: 10px;
   }
   .container img {
     margin: auto;
